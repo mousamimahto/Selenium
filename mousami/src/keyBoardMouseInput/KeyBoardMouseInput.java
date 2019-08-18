@@ -15,7 +15,7 @@ public class KeyBoardMouseInput {
 		
 		WebElement keyBoard= driver.findElement(By.xpath(".//input[@id='name']"));
 		keyBoard.click();
-		keyBoard.sendKeys("mousami");
+		keyBoard.sendKeys("mousamimahto");
 
 		WebElement button= driver.findElement(By.id("button"));
 		button.click();
